@@ -1,0 +1,19 @@
+{
+  "name": "memphis-city-drive",
+  "version": "1.0.0",
+  "description": "Deterministic Memphis-style city drive animation with a synthesized soundtrack",
+  "main": "src/renderer.js",
+  "private": true,
+  "scripts": {
+    "checkpoint": "node scripts/checkpoint.cjs",
+    "frames": "node scripts/render-frames.cjs",
+    "audio": "node scripts/audio.cjs",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer-core": "25.16.0"
+  }
+}

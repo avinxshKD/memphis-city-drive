@@ -1,0 +1,9 @@
+node_modules/
+tools/
+
+# Build output. A few small generated files are kept for the README.
+output/*
+!output/events.md
+!output/audio_sync.md
+!output/contact_sheet.png
+!output/frame_0400.png
